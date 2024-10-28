@@ -1,0 +1,252 @@
+2024-10-27 16:11:08,924 - INFO - Starting fuzz testing on complex tensor operations.
+2024-10-27 16:11:08,937 - ERROR - Test 1 - Error for operation add: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,938 - ERROR - Test 1 - Error for operation sub: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,939 - ERROR - Test 1 - Error for operation mul: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,940 - ERROR - Test 1 - Error for operation div: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,948 - ERROR - Test 1 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,953 - ERROR - Test 2 - Error for operation add: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 16:11:08,953 - ERROR - Test 2 - Error for operation sub: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 16:11:08,953 - ERROR - Test 2 - Error for operation mul: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 16:11:08,953 - ERROR - Test 2 - Error for operation div: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 16:11:08,958 - ERROR - Test 2 - Error for operation mm: mat2 must be a matrix
+2024-10-27 16:11:08,958 - ERROR - Test 2 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,958 - ERROR - Test 2 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,959 - ERROR - Test 3 - Error for operation add: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 16:11:08,959 - ERROR - Test 3 - Error for operation sub: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 16:11:08,959 - ERROR - Test 3 - Error for operation mul: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 16:11:08,959 - ERROR - Test 3 - Error for operation div: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 16:11:08,959 - ERROR - Test 3 - Error for operation matmul: The size of tensor a (7) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,960 - ERROR - Test 3 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,960 - ERROR - Test 3 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,960 - ERROR - Test 3 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation add: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation sub: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation mul: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation div: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation matmul: The size of tensor a (10) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,960 - ERROR - Test 4 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,961 - ERROR - Test 5 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,961 - ERROR - Test 6 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,961 - ERROR - Test 7 - Error for operation add: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 7 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 7 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 7 - Error for operation div: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 7 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,962 - ERROR - Test 8 - Error for operation add: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 8 - Error for operation sub: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 8 - Error for operation mul: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 8 - Error for operation div: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 16:11:08,962 - ERROR - Test 8 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,962 - ERROR - Test 9 - Error for operation add: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 9 - Error for operation sub: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 9 - Error for operation mul: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 9 - Error for operation div: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 9 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,962 - ERROR - Test 10 - Error for operation add: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 10 - Error for operation sub: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 10 - Error for operation mul: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,962 - ERROR - Test 10 - Error for operation div: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 16:11:08,963 - ERROR - Test 10 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,963 - ERROR - Test 10 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,963 - ERROR - Test 10 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation add: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation sub: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation mul: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation div: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation matmul: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,963 - ERROR - Test 11 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,963 - ERROR - Test 12 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,963 - ERROR - Test 13 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation add: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation sub: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation mul: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation div: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (49x10 and 0x7)
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation bmm: batch2 must be a 3D tensor
+2024-10-27 16:11:08,964 - ERROR - Test 14 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation add: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation div: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x9)
+2024-10-27 16:11:08,964 - ERROR - Test 15 - Error for operation mm: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x9)
+2024-10-27 16:11:08,965 - ERROR - Test 15 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,965 - ERROR - Test 15 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,965 - ERROR - Test 16 - Error for operation add: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,965 - ERROR - Test 16 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,965 - ERROR - Test 16 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,965 - ERROR - Test 16 - Error for operation div: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 16:11:08,965 - ERROR - Test 16 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation add: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation sub: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation mul: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation div: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation matmul: Expected size for first two dimensions of batch2 tensor to be: [56, 6] but got: [56, 7].
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation bmm: batch2 must be a 3D tensor
+2024-10-27 16:11:08,965 - ERROR - Test 17 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,965 - ERROR - Test 18 - Error for operation add: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 16:11:08,965 - ERROR - Test 18 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 16:11:08,965 - ERROR - Test 18 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 16:11:08,965 - ERROR - Test 18 - Error for operation div: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 16:11:08,966 - ERROR - Test 18 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x2)
+2024-10-27 16:11:08,966 - ERROR - Test 18 - Error for operation mm: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x2)
+2024-10-27 16:11:08,966 - ERROR - Test 18 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,966 - ERROR - Test 18 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,966 - ERROR - Test 19 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,966 - ERROR - Test 20 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,966 - ERROR - Test 21 - Error for operation add: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 16:11:08,966 - ERROR - Test 21 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 16:11:08,966 - ERROR - Test 21 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 21 - Error for operation div: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 21 - Error for operation matmul: The size of tensor a (2) must match the size of tensor b (3) at non-singleton dimension 0
+2024-10-27 16:11:08,967 - ERROR - Test 21 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,967 - ERROR - Test 21 - Error for operation bmm: Expected size for first two dimensions of batch2 tensor to be: [2, 0] but got: [3, 4].
+2024-10-27 16:11:08,967 - ERROR - Test 21 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation add: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation sub: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation mul: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation div: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (180x10 and 5x1)
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation mm: self must be a matrix
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 16:11:08,967 - ERROR - Test 22 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,967 - ERROR - Test 23 - Error for operation add: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 16:11:08,968 - ERROR - Test 23 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 16:11:08,968 - ERROR - Test 23 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 16:11:08,968 - ERROR - Test 23 - Error for operation div: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 16:11:08,968 - ERROR - Test 23 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,968 - ERROR - Test 24 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,968 - ERROR - Test 25 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 16:11:08,968 - INFO - Fuzz testing completed.
+2024-10-27 17:09:23,779 - INFO - Starting fuzz testing on complex tensor operations.
+2024-10-27 17:09:23,780 - ERROR - Test 1 - Error for operation add: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,780 - ERROR - Test 1 - Error for operation sub: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,780 - ERROR - Test 1 - Error for operation mul: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,780 - ERROR - Test 1 - Error for operation div: The size of tensor a (4) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,781 - ERROR - Test 1 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation add: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation sub: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation mul: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation div: The size of tensor a (7) must match the size of tensor b (2) at non-singleton dimension 3
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation mm: mat2 must be a matrix
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,781 - ERROR - Test 2 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation add: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation sub: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation mul: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation div: The size of tensor a (5) must match the size of tensor b (0) at non-singleton dimension 3
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation matmul: The size of tensor a (7) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,782 - ERROR - Test 3 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation add: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation sub: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation mul: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation div: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation matmul: The size of tensor a (10) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,782 - ERROR - Test 4 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,782 - ERROR - Test 5 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,783 - ERROR - Test 6 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,783 - ERROR - Test 7 - Error for operation add: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 7 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 7 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 7 - Error for operation div: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 7 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,783 - ERROR - Test 8 - Error for operation add: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 8 - Error for operation sub: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 8 - Error for operation mul: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 8 - Error for operation div: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2
+2024-10-27 17:09:23,783 - ERROR - Test 8 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,783 - ERROR - Test 9 - Error for operation add: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,783 - ERROR - Test 9 - Error for operation sub: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,783 - ERROR - Test 9 - Error for operation mul: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,783 - ERROR - Test 9 - Error for operation div: The size of tensor a (3) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,783 - ERROR - Test 9 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation add: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation sub: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation mul: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation div: The size of tensor a (9) must match the size of tensor b (3) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,784 - ERROR - Test 10 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation add: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation sub: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation mul: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation div: The size of tensor a (4) must match the size of tensor b (9) at non-singleton dimension 4
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation matmul: The size of tensor a (8) must match the size of tensor b (4) at non-singleton dimension 2
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,784 - ERROR - Test 11 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,784 - ERROR - Test 12 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,785 - ERROR - Test 13 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation add: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation sub: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation mul: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation div: The size of tensor a (10) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (49x10 and 0x7)
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation bmm: batch2 must be a 3D tensor
+2024-10-27 17:09:23,785 - ERROR - Test 14 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation add: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation div: The size of tensor a (0) must match the size of tensor b (9) at non-singleton dimension 1
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x9)
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation mm: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x9)
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,785 - ERROR - Test 15 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,785 - ERROR - Test 16 - Error for operation add: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,786 - ERROR - Test 16 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,786 - ERROR - Test 16 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,786 - ERROR - Test 16 - Error for operation div: The size of tensor a (8) must match the size of tensor b (7) at non-singleton dimension 2
+2024-10-27 17:09:23,786 - ERROR - Test 16 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation add: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation sub: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation mul: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation div: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 4
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation matmul: Expected size for first two dimensions of batch2 tensor to be: [56, 6] but got: [56, 7].
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation bmm: batch2 must be a 3D tensor
+2024-10-27 17:09:23,786 - ERROR - Test 17 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation add: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation div: The size of tensor a (0) must match the size of tensor b (2) at non-singleton dimension 1
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x2)
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation mm: mat1 and mat2 shapes cannot be multiplied (2x0 and 4x2)
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,786 - ERROR - Test 18 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,787 - ERROR - Test 19 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,787 - ERROR - Test 20 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation add: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation sub: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation mul: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation div: The size of tensor a (0) must match the size of tensor b (6) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation matmul: The size of tensor a (2) must match the size of tensor b (3) at non-singleton dimension 0
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation bmm: Expected size for first two dimensions of batch2 tensor to be: [2, 0] but got: [3, 4].
+2024-10-27 17:09:23,787 - ERROR - Test 21 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation add: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation sub: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation mul: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation div: The size of tensor a (6) must match the size of tensor b (5) at non-singleton dimension 2
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation matmul: mat1 and mat2 shapes cannot be multiplied (180x10 and 5x1)
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation mm: self must be a matrix
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation bmm: batch1 must be a 3D tensor
+2024-10-27 17:09:23,787 - ERROR - Test 22 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,788 - ERROR - Test 23 - Error for operation add: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 17:09:23,788 - ERROR - Test 23 - Error for operation sub: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 17:09:23,788 - ERROR - Test 23 - Error for operation mul: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 17:09:23,788 - ERROR - Test 23 - Error for operation div: The size of tensor a (8) must match the size of tensor b (9) at non-singleton dimension 3
+2024-10-27 17:09:23,788 - ERROR - Test 23 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,788 - ERROR - Test 24 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,788 - ERROR - Test 25 - Error for operation t: t() takes 1 positional argument but 2 were given
+2024-10-27 17:09:23,788 - INFO - Fuzz testing completed.

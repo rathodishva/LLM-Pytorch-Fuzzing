@@ -1,0 +1,43 @@
+The following a prompt list provided my gpt to fuzz the tensor API in pytorch, for this API, there will be a test of a selected amount
+
+
+Basic Operations:
+Create a Tensor: "Write a Python script that creates a tensor with random values and checks its properties like shape, dtype, and device."
+Tensor Initialization: "Generate a Python function that initializes a tensor using different methods (e.g., zeros, ones, random, arange) and prints the resulting tensors."
+Reshaping: "Write code to create a tensor and reshape it in various ways. Include error handling for incompatible shapes."
+
+Edge Cases
+Empty Tensors: "Create a test that initializes empty tensors and performs basic operations like addition and multiplication, checking for errors or warnings."
+Invalid Shapes: "Write a function that attempts to create tensors with invalid shapes and captures any exceptions raised."
+Negative Dimensions: "Generate a script that creates tensors with negative dimensions or dimensions with zero and checks for error messages."
+Operations on Tensors
+Arithmetic Operations: "Create a fuzz testing script that performs arithmetic operations (addition, subtraction, multiplication, division) on tensors of different shapes and types."
+Broadcasting: "Write a function to test the broadcasting behavior of tensors when performing operations with mismatched dimensions and log the results."
+Indexing and Slicing: "Write a code snippet that tests various indexing and slicing techniques on tensors, including out-of-bounds accesses."
+
+
+Data Types and Conversion
+Data Type Conversion: "Generate a test that creates tensors of different data types (float, int, boolean) and performs operations that require type conversions."
+Mixed Data Types: "Write a function that creates a tensor from a list of mixed data types and attempts to perform operations on it."
+Non-standard Values
+NaN and Infinity: "Create a test that initializes tensors with NaN and infinite values, then performs arithmetic operations to check for correct handling."
+Large Values: "Generate a script that creates tensors with extremely large values and checks for overflow or other unexpected behavior."
+
+
+Memory and Performance
+Large Tensors: "Write a function that creates very large tensors and times the performance of basic operations, checking for memory issues."
+Multiple Operations: "Create a test that performs a sequence of operations on tensors and measures execution time, logging any exceptions or performance degradation."
+
+
+Advanced Operations
+Matrix Operations: "Write a script that tests various matrix operations (e.g., dot product, transpose) with tensors of different shapes and logs the outcomes."
+Tensor Functions: "Create tests for various tensor functions (e.g., sum, mean, max) and verify their outputs for different input shapes and types."
+
+
+Cleanup and Debugging
+Resource Management: "Generate code that tests the cleanup and memory release of tensors after operations, ensuring that resources are properly managed."
+Debugging Information: "Write a function that captures and prints detailed debugging information when operations on tensors fail."
+
+
+Summary
+Comprehensive Fuzz Testing: "Combine all previous tests into a single fuzz testing framework that systematically tests the torch.Tensor API and logs all outputs, exceptions, and performance metrics."

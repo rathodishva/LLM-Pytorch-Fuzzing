@@ -1,0 +1,16 @@
+Give me a list of 3 prompts to query chatgpt to fuzz test the pytorch API Neural Networks (torch.nn), ensure that it is pushing for edge cases
+and aiming to uncover bugs
+
+Unusual Layer Configurations:
+"Write a script to initialize neural network layers (e.g., Linear, Conv2d, RNN) with extreme parameter values, such as unusually large or
+ small input/output dimensions, stride, and kernel sizes. Test various inputs through these layers and check for unexpected errors or abnormal outputs."
+
+Incompatible Layer Stacking:
+"Create a neural network with a mix of incompatible or unusual layer sequences (e.g., a Conv2d layer followed by a Linear layer without
+ reshaping). Attempt to forward random input through the model and log any layer incompatibility issues, shape mismatches, or runtime errors."
+
+Edge Case Activations and Initializations:
+"Generate a model with layers that use non-standard activations (e.g., extremely high negative values for ReLU input) and unusual weight
+initializations (e.g., very large or very small weights). Pass a variety of inputs through the model, focusing on potential overflow, NaN
+values, or divergence during training."
+

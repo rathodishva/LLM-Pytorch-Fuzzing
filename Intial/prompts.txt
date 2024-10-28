@@ -1,0 +1,19 @@
+The following is a list of genral prompts given to chatgpt 4 model. This whole research is done on the basis of what GPT-4o mini would strucutre
+the best way to use it self to evaluate as a fuzzer.
+
+The intial quesiton was the types of API to target, hoping to find simmilar groups where thet can be tested.
+- The next is to create programs of individual API's to test
+- Following closely is finding errors and then putting through a cycle of mutations to uncover certian bugs
+    - mutation methods:
+        - arguments
+        - prefix
+        - suffix
+        - method
+- Lastly comparing this on a CPU vs GPU level
+
+
+
+
+
+Propmpts used for torch.mm:
+- "Generate a PyTorch code snippet that multiplies two 2D tensors using torch.mm with mismatched dimensions."

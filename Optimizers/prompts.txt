@@ -1,0 +1,9 @@
+Extreme Hyperparameters:
+"Write a script that initializes various optimizers (e.g., SGD, Adam, RMSprop) with extreme hyperparameter values, such as very high or low learning rates, momentum, and weight decay. Test these configurations on a simple neural network and monitor for divergence, NaN values, or unstable training behavior."
+
+Incompatible Parameter Groups:
+"Generate a test that creates a model with multiple parameter groups, assigning conflicting settings (e.g., different learning rates or momentum values) within the same optimizer. Evaluate how the optimizer handles these configurations and log any errors, unexpected parameter updates, or warnings."
+
+Sparse Gradients and Edge Case Models:
+"Create a scenario where an optimizer must work with sparse gradients (e.g., with embeddings or models with sparse layers). Test various optimizers with this setup, observing if they handle sparse gradients correctly or if any crashes or unexpected updates occur."
+

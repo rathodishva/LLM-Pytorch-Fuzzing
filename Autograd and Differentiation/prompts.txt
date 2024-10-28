@@ -1,0 +1,20 @@
+Here’s a list of 5 prompts to query ChatGPT for fuzz testing the `torch.autograd` API in PyTorch, focusing on automatic differentiation and gradient calculations:
+
+### Fuzz Testing Prompts for `torch.autograd`
+
+1. **Basic Gradient Calculation**:  
+   "Write a Python script that creates a tensor with requires_grad set to True, performs a simple operation, and verifies that the gradient is correctly calculated. Include edge cases such as operations that could lead to NaN gradients."
+
+2. **Complex Computation Graphs**:  
+   "Generate a function that builds a complex computation graph involving multiple tensors and operations, and tests if the gradients are calculated correctly for each tensor in the graph. Log any discrepancies or errors."
+
+3. **Invalid Operations**:  
+   "Create a test that attempts to compute gradients for tensors involved in invalid operations (e.g., division by zero, unsupported types) and captures the exceptions or warnings that arise."
+
+4. **Higher-Order Gradients**:  
+   "Write a script that computes higher-order gradients (e.g., second derivatives) by nesting the backward calls. Ensure to test with various tensor shapes and operations, and log any errors or unexpected results."
+
+5. **Memory Management and Performance**:  
+   "Develop a performance testing function that evaluates the memory usage and execution time of computing gradients for large tensors over multiple iterations. Check for memory leaks or significant slowdowns and report the findings."
+
+These prompts can help you systematically test the `torch.autograd` API for robustness and identify potential issues related to automatic differentiation in PyTorch.
