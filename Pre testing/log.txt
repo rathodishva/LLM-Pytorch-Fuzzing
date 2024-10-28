@@ -1,0 +1,21 @@
+First intial strategy is to test the most common API's, by intially prompting chat gpt the following "what are the top 4 common apis in pytorch?"
+
+The output presents the following:
+torch.nn:
+    This module contains classes and functions to create neural networks. It includes layers, loss functions, and activation functions, among other tools 
+necessary for building and training deep learning models.
+
+torch.optim:
+    This module provides various optimization algorithms, such as SGD, Adam, and RMSprop, to optimize the parameters of the neural networks. These 
+optimizers adjust the weights of the model during training based on the calculated gradients.
+
+torch.autograd:
+    This is PyTorch's automatic differentiation engine. It tracks operations on tensors and automatically computes gradients during the backward pass,
+which is essential for training neural networks.
+
+torch.utils.data:
+    This module is used for data loading and preprocessing. It provides classes like Dataset and DataLoader to help in efficiently loading, batching,
+and transforming datasets, which is crucial for training models on large-scale data. 
+
+
+The first
